@@ -99,7 +99,35 @@ void draw_logo_lcdb(void)
 }
 
 
-int main( void )
+struct lcd_ops {
+	int type;
+	void (*draw_logo)(void);
+	void (*draw_text)(char *str);
+};
+
+struct lcd_ops ask100_lcds[] ={
+	{0, draw_logo_lcda, NULL},
+	{1, draw_logo_lcdb, NULL},
+	{2, draw_logo_lcdc, NULL},
+	{3, draw_logo_lcdd, NULL},
+};
+
+struct lcd_ops *get_lcd_for_type(void)
+{
+	int i;
+	int type = get_lcd_type();
+	for (i = 0; i < 4; i++)
+	{
+		if (ask100_lcds[i].type == type)
+			return &ask100_lcds[i];
+		
+	}
+
+	return NULL;
+}
+
+
+int main2( void )
 {
 	int type = get_lcd_type();
 	
@@ -109,6 +137,12 @@ int main( void )
 		draw_logo_lcda();
 	else if (type == 1)
 		draw_logo_lcdb();
+	else if (type == 2)
+		draw_logo_lcdc());
+	else if (type == 3)
+		draw_logo_lcdd();
+	else if (type == 4)
+		draw_logo_lcde();
 
 
 	while (1);
