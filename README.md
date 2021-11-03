@@ -1,4 +1,4 @@
-# C语言加强
+# 一. C语言加强
 ## 1. 课程介绍
 
 ### 1.1 内容
@@ -90,7 +90,9 @@ git clone https://e.coding.net/weidongshan/rtos_training/c_improve.git
 
 
 
-## 3. 观看视频
+
+
+### 2.4 观看视频
 
 * 官网：http://www.100ask.net
 
@@ -100,10 +102,63 @@ git clone https://e.coding.net/weidongshan/rtos_training/c_improve.git
 
 * B站：搜"韦东山"
 
+可以在官网找到视频：
+
+![image-20211103120501270](02_文档和图片/pic/c/03_videos.png)
 
 
 
-## 4. 联系方式
+# 二. 以面向对象思想编写单片机程序
+
+## 1. 下载资料
+
+本教程所有资料放在如下GIT仓库里：
+
+```shell
+git clone https://e.coding.net/weidongshan/rtos_training/c_improve.git
+```
+
+
+如果你不会使用GIT，请参考如下链接：
+
+![image-20210922113628486](pic/01_use_git.png)
+
+
+
+## 2. 资料位置
+
+### 2.1 文档
+
+在GIT仓库如下位置：
+
+![image-20211103120254660](02_文档和图片/以面向对象思想编写单片机程序/pic/input/doc_place.png)
+
+
+
+### 2.2 源码
+
+在GIT仓库如下位置：
+
+![image-20211103120359357](02_文档和图片/以面向对象思想编写单片机程序/pic/input/source_place.png)
+
+
+### 2.3 观看视频
+
+* 官网：http://www.100ask.net
+
+* 手机：微信、QQ、浏览器，打开http://www.100ask.net
+
+* 微信小程序：搜“韦东山”
+
+* B站：搜"韦东山"
+
+可以在官网找到视频：
+
+![image-20211103120552365](02_文档和图片/以面向对象思想编写单片机程序/pic/input/video_place.png)
+
+
+
+# 三. 联系方式
 
 * 官网：http://www.100ask.net
 
